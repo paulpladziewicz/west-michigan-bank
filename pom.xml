@@ -27,10 +27,16 @@
         <module>customer-profile-service</module>
         <module>onboarding-orchestrator</module>
         <module>kyc-engine</module>
+        <module>common</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.paulpladziewicz</groupId>
+                <artifactId>common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
