@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "KYC Engine",
+            "request": "launch",
+            "mainClass": "com.paulpladziewicz.kyc_engine.KycEngineApplication",
+            "projectName": "kyc-engine"
+        },
+        {
+            "type": "java",
+            "name": "API Gateway",
+            "request": "launch",
+            "mainClass": "com.paulpladziewicz.api_gateway.ApiGatewayApplication",
+            "projectName": "api-gateway"
+        },
+        {
+            "type": "java",
+            "name": "Customer Profile Service",
+            "request": "launch",
+            "mainClass": "com.paulpladziewicz.customer_profile_service.CustomerProfileServiceApplication",
+            "projectName": "customer-profile-service"
+        },
+        {
+            "type": "java",
+            "name": "Onboarding Orchestrator",
+            "request": "launch",
+            "mainClass": "com.paulpladziewicz.onboarding_orchestrator.OnboardingOrchestratorApplication",
+            "projectName": "onboarding-orchestrator"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Launch All Services",
+            "configurations": [
+                "KYC Engine",
+                "API Gateway",
+                "Customer Profile Service",
+                "Onboarding Orchestrator"
+            ],
+            "stopAll": true
+        }
+    ]
+}

@@ -18,7 +18,7 @@ services:
 
   api-gateway:
     build:
-      context: ..
+      context: .
       dockerfile: api-gateway/Dockerfile
     ports:
       - "8080:8080"
@@ -32,7 +32,7 @@ services:
 
   customer-profile-service:
     build:
-      context: ..
+      context: .
       dockerfile: customer-profile-service/Dockerfile
     ports:
       - "8081:8081"
@@ -47,7 +47,7 @@ services:
 
   onboarding-orchestrator:
     build:
-      context: ..
+      context: .
       dockerfile: onboarding-orchestrator/Dockerfile
     ports:
       - "8082:8082"
@@ -62,7 +62,7 @@ services:
 
   kyc-engine:
     build:
-      context: ..
+      context: .
       dockerfile: kyc-engine/Dockerfile
     ports:
       - "8083:8083"
