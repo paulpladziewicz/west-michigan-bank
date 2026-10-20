@@ -1,6 +1,5 @@
 package com.paulpladziewicz.customer_profile_service;
 
-import com.paulpladziewicz.dto.CreateCustomerRequest;
 import jakarta.persistence.*;
 import lombok.Data;
 

@@ -1,6 +1,6 @@
 package com.paulpladziewicz.customer_profile_service;
 
-import com.paulpladziewicz.dto.CreateCustomerRequest;
+import com.paulpladziewicz.client.customer_profile_service.CreateCustomerRequest;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

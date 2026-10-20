@@ -1,4 +1,4 @@
-package com.paulpladziewicz.dto;
+package com.paulpladziewicz.client.customer_profile_service;
 
 import jakarta.validation.constraints.NotBlank;
 
